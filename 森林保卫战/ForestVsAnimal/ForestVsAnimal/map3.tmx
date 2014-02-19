@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="007-Swamp01" tilewidth="32" tileheight="32">
+  <tileoffset x="1" y="1"/>
+  <image source="007-Swamp01.png" width="256" height="448"/>
+ </tileset>
+ <tileset firstgid="113" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <tileoffset x="1" y="1"/>
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="115" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <tileoffset x="1" y="1"/>
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <layer name="load" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJybwMDAMGEUDxs8cRC4AYQBke1UYg==
+  </data>
+ </layer>
+ <layer name="backGround" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyVkMsKgCAQRXVT0Ushs12t6pf8i/r/XVcYYRjEcnEYRzheuUYpZcEKPJjBxPY0Iw1oQUdoQfQczXS3MDTzpauFl2OkGSqR7/SFjBs8LCfnpE6458QeqMvkysw/f96FZ5lrPrq6wAm2TC7fh8IbBzv7ys5fkEkP5A==
+  </data>
+ </layer>
+ <objectgroup name="Enemy" width="15" height="10">
+  <object name="enemy1" x="14" y="109"/>
+  <object name="enemy2" x="466" y="300"/>
+ </objectgroup>
+ <objectgroup name="Sign" width="15" height="10">
+  <object name="sign" x="367" y="110">
+   <properties>
+    <property name="tag" value="1"/>
+   </properties>
+  </object>
+  <object name="sign" x="367" y="202">
+   <properties>
+    <property name="tag" value="2"/>
+   </properties>
+  </object>
+  <object name="sign" x="142" y="203">
+   <properties>
+    <property name="tag" value="3"/>
+   </properties>
+  </object>
+  <object name="sign" x="141" y="303">
+   <properties>
+    <property name="tag" value="4"/>
+   </properties>
+  </object>
+  <object name="sign" x="463" y="299">
+   <properties>
+    <property name="tag" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Meta" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfFKJhbHLoYrj0FuIRR5enhjvx2cGARR02P+EzE90cXPL43IyuD595xMQFLncSCm9ywhwAnnoe5w==
+  </data>
+ </layer>
+</map>
